@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class NavbarController {
-    @RequestMapping(value="paginaprincipal",method= RequestMethod.GET)
+    @RequestMapping(value="/principal",method= RequestMethod.GET)
     public String paginaPrincipal(){
         return "principal";
     }
